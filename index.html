@@ -76,33 +76,33 @@
             
             <tbody>
               <td style="padding:20px;width:35%;vertical-align:middle">
-                <img src='images/inr4jointrecon.png' width="240">
+                <img src='images/dm4ct.pdf' width="240">
               </td>
               <td style="padding:20px;width:65%;vertical-align:middle">
-                <a href="https://github.com/jiayangshi/INR4JointCTRecon">
-                  <span class="papertitle">Implicit Neural Representations for Robust Joint Sparse-View CT Reconstruction</span>
+                <a href="https://github.com/DM4CT/DM4CT">
+                  <span class="papertitle">DM4CT: Benchmarking Diffusion Models for Computed Tomography Reconstruction</span>
                 </a>
                 <br>
-                <strong>Jiayang Shi<sup>*</sup></strong>,
-                <a href="https://junyizhu-ai.github.io">Junyi Zhu<sup>*</sup></a>,
+                <strong>Jiayang Shi</strong>,
                 <a href="https://dmpelt.github.io">Daan Pelt</a>,
-                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>,
-                <a href="https://homes.esat.kuleuven.be/~mblaschk/">Matthew Blaschko</a>
+                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>
                 <br>
-                <em>Transactions on Machine Learning Research (TMLR) </em>, 2024 &nbsp
+                <em> International Conference on Learning Representations (ICLR) </em>, 2026 &nbsp
                 <br>
-                <a href="https://github.com/jiayangshi/INR4JointCTRecon">code</a>
+                <a href="https://github.com/DM4CT/DM4CT">code</a>
                 /
-                <a href="https://openreview.net/forum?id=XCzuQI0oXR">openreview</a>
+                <a href="https://zenodo.org/records/15420527">dataset</a>
                 /
-                <a href="https://arxiv.org/abs/2405.02509">paper</a>
-                <br>
-                * = Equal contribution
+                <a href="https://openreview.net/forum?id=YE5scJekg5&noteId=oYqxdLMM1B">openreview</a>
+                /
+                <a href="https://openreview.net/forum?id=YE5scJekg5&noteId=oYqxdLMM1B">paper</a>
+
                 <p>
-                  A novel Bayesian framework for joint reconstruction of multiple objects from sparse-view CT scans using 
-                  Implicit Neural Representations (INRs) to improve reconstruction quality. By capturing shared patterns across 
-                  multiple objects with latent variables, our method enhances the reconstruction of each object, increases 
-                  robustness to noise, and accelerates the learning process.
+                 DM4CT is a comprehensive benchmark for diffusion-based methods in CT reconstruction. It systematically 
+                 compares ten state-of-the-art diffusion models alongside modern learning-based approaches (e.g., Gaussian Splatting and INRs) 
+                 and classical reconstruction algorithms across diverse CT datasets. The benchmark provides detailed insights into 
+                 reconstruction quality, efficiency, and practical trade-offs. In addition, we introduce a new real-world high-resolution 
+                 synchrotron CT dataset to facilitate realistic evaluation of CT reconstruction methods.
                 </p>
               </td>
               </tr>
@@ -123,7 +123,7 @@
                 <a href="https://dmpelt.github.io">Daan Pelt<sup>*</sup></a>,
                 <a href="https://profiles.ucl.ac.uk/30988-charlotte-hagen">Charlotte Hagen<sup>*</sup></a>
                 <br>
-                <em>Tomography of Materials and Structures </em>, 2024 &nbsp
+                <em>Tomography of Materials and Structures </em>, 2025 &nbsp
                 <br>
                 <a href="https://github.com/jiayangshi/SR4ZCT">code</a>
                 /
@@ -136,36 +136,6 @@
               </td>
               </tr>
             </tbody>  
-
-            <tbody>
-              <td style="padding:20px;width:35%;vertical-align:middle">
-                <img src='images/sr4zct.pdf' width="240">
-              </td>
-              <td style="padding:20px;width:65%;vertical-align:middle">
-                <a href="https://github.com/jiayangshi/SR4ZCT">
-                  <span class="papertitle">SR4ZCT: Self-supervised Through-plane Resolution Enhancement for CT Images with
-                    Arbitrary Resolution and Overlap</span>
-                </a>
-                <br>
-                <strong>Jiayang Shi</strong>,
-                <a href="https://dmpelt.github.io">Daan Pelt</a>,
-                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>
-                <br>
-                <em>Machine Learning in Medical Imaging (MLMI) in conjunction with MICCAI </em>, 2023 &nbsp
-                <br>
-                <a href="https://github.com/jiayangshi/SR4ZCT">code</a>
-                /
-                <a href="https://link.springer.com/chapter/10.1007/978-3-031-45673-2_6">proceeding</a>
-                /
-                <a href="https://github.com/jiayangshi/SR4ZCT/blob/main/paper/Self_Supervised_Resolution_Enhancement_for_CT_Images.pdf">paper</a>
-                <p>
-                  A self-supervised approach utilizing off-axis training to improve the resolution of through-plane CT scans.
-                  This method is trained using in-plane images and applied to through-plane images, offering flexibility with
-                  any resolution and overlap.
-                </p>
-              </td>
-              </tr>
-            </tbody>        
 
             <tbody>
               <!-- color for stressing <tr onmouseout="multistage_stop()" onmouseover="multistage_start()" bgcolor="#ffffd0"></tr> -->
@@ -213,126 +183,228 @@
                   pipelines.
                 </p>
               </td>
+            </tbody>
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/inr4jointrecon.png' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://github.com/jiayangshi/INR4JointCTRecon">
+                  <span class="papertitle">Implicit Neural Representations for Robust Joint Sparse-View CT Reconstruction</span>
+                </a>
+                <br>
+                <strong>Jiayang Shi<sup>*</sup></strong>,
+                <a href="https://junyizhu-ai.github.io">Junyi Zhu<sup>*</sup></a>,
+                <a href="https://dmpelt.github.io">Daan Pelt</a>,
+                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>,
+                <a href="https://homes.esat.kuleuven.be/~mblaschk/">Matthew Blaschko</a>
+                <br>
+                <em>Transactions on Machine Learning Research (TMLR) </em>, 2024 &nbsp
+                <br>
+                <a href="https://github.com/jiayangshi/INR4JointCTRecon">code</a>
+                /
+                <a href="https://openreview.net/forum?id=XCzuQI0oXR">openreview</a>
+                /
+                <a href="https://arxiv.org/abs/2405.02509">paper</a>
+                <br>
+                * = Equal contribution
+                <p>
+                  A novel Bayesian framework for joint reconstruction of multiple objects from sparse-view CT scans using 
+                  Implicit Neural Representations (INRs) to improve reconstruction quality. By capturing shared patterns across 
+                  multiple objects with latent variables, our method enhances the reconstruction of each object, increases 
+                  robustness to noise, and accelerates the learning process.
+                </p>
+              </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/recon_n5.pdf' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://github.com/jiayangshi/LoDoInd">
+                  <span class="papertitle">LoDoInd: Introducing A Benchmark Low-dose Industrial CT Dataset and Enhancing Denoising with 2.5D Deep Learning Techniques</span>
+                </a>
+                <br>
+                <strong>Jiayang Shi</strong>,
+                <a href="https://www.linkedin.com/in/omar-elkilany-046b0814b">Omar Elkilany</a>,
+                <a href="https://www.linkedin.com/in/andreas-fischer-6a960b94">Andreas Fischer</a>,
+                <a href="https://www.linkedin.com/in/alexander-suppes-554928a6">Alexander Suppes</a>,
+                <a href="https://dmpelt.github.io">Daan Pelt</a>,
+                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>
+                <br>
+                <em> International Conference on Industrial Computed Tomography (iCT) </em>, 2024 &nbsp
+                <br>
+                <a href="https://github.com/jiayangshi/LoDoInd">code</a>
+                /
+                <a href="https://zenodo.org/records/10356955">dataset</a>
+                /
+                <a href="https://www.ndt.net/article/ctc2024/papers/Contribution_187.pdf">proceeding</a>
+                /
+                <a href="https://github.com/jiayangshi/LoDoInd/blob/main/paper/LoDoInd_full.pdf">paper</a>
+                <p>
+                  A Benchmark Low-dose Industrial CT Dataset Tailored for Deep Learning: This work introduces a dataset specifically designed for industrial CT applications, 
+                  emphasizing deep learning approaches. It features a comprehensive analysis comparing the effectiveness and efficiency of 2D, 2.5D, and 3D training methodologies 
+                  in the context of denoising and image enhancement.
+                </p>
+              </td>
+              </tr>
+            </tbody>
+
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/sr4zct.pdf' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://github.com/jiayangshi/SR4ZCT">
+                  <span class="papertitle">SR4ZCT: Self-supervised Through-plane Resolution Enhancement for CT Images with
+                    Arbitrary Resolution and Overlap</span>
+                </a>
+                <br>
+                <strong>Jiayang Shi</strong>,
+                <a href="https://dmpelt.github.io">Daan Pelt</a>,
+                <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>
+                <br>
+                <em>Machine Learning in Medical Imaging (MLMI) in conjunction with MICCAI </em>, 2023 &nbsp
+                <br>
+                <a href="https://github.com/jiayangshi/SR4ZCT">code</a>
+                /
+                <a href="https://link.springer.com/chapter/10.1007/978-3-031-45673-2_6">proceeding</a>
+                /
+                <a href="https://github.com/jiayangshi/SR4ZCT/blob/main/paper/Self_Supervised_Resolution_Enhancement_for_CT_Images.pdf">paper</a>
+                <p>
+                  A self-supervised approach utilizing off-axis training to improve the resolution of through-plane CT scans.
+                  This method is trained using in-plane images and applied to through-plane images, offering flexibility with
+                  any resolution and overlap.
+                </p>
+              </td>
+              </tr>
+            </tbody>        
+
+
+            
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/diffusion_tabular.png' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684507">
+                  <span class="papertitle">Diffusion Models for Tabular Data: Challenges, Current Progress, 
+                    and Future Directions</span>
+                </a>
+                <br>
+                <a href="https://www.zhongli.nl">Zhong Li</a>,
+                <a href="https://www.linkedin.com/in/qi-huang-frostwitcher/?locale=en_US">Qi Huang</a>,
+                <a href="https://www.lincen.nl">Lincen Yang</a>,
+                <strong>Jiayang Shi</strong>,
+                <a href="https://yangzhao-666.github.io">Zhao Yang</a>,
+                <a href="https://www.nikivanstein.nl">Niki Van Stein</a>,
+                <a href="https://www.universiteitleiden.nl/en/staffmembers/thomas-back#tab-1">Thomas Bäck</a>,
+                <a href="https://patternsthatmatter.org">Matthijs van Leeuwen</a>
+                <br>
+                <em>Under review</em>, 2026 &nbsp
+                <br>
+                <a href="https://github.com/Diffusion-Model-Leiden/awesome-diffusion-models-for-tabular-data">code</a>
+                /
+                <a href="https://arxiv.org/pdf/2502.17119">paper</a>
+                <p>
+                  Survey paper on diffusion models for tabular data.
+                </p>
+              </td>
+              </tr>
+            </tbody>
+
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/crossdomaingraph.png' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684507">
+                  <span class="papertitle">Cross-Domain Graph Level Anomaly Detection</span>
+                </a>
+                <br>
+                <a href="https://www.zhongli.nl">Zhong Li</a>,
+                <a href="https://de.linkedin.com/in/sheng-liang-293355236">Sheng Liang</a>,
+                <strong>Jiayang Shi</strong>,
+                <a href="https://patternsthatmatter.org">Matthijs van Leeuwen</a>
+                <br>
+                <em>IEEE Transactions on Knowledge and Data Engineering (TKDE)</em>, 2024 &nbsp
+                <br>
+                <a href="https://github.com/ZhongLIFR/ARMET">code</a>
+                /
+                <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684507">paper</a>
+                <p>
+                  Unsupervised cross-domain graph level anomaly detection.
+                </p>
+              </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/logs2graph.pdf' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://arxiv.org/abs/2307.00527">
+                  <span class="papertitle">Graph Neural Network based Log Anomaly Detection and Explanation</span>
+                </a>
+                <br>
+                <a href="https://www.zhongli.nl">Zhong Li</a>,
+                <strong>Jiayang Shi</strong>,
+                <a href="https://patternsthatmatter.org">Matthijs van Leeuwen</a>
+                <br>
+                <em>Full paper under review</em>, 2024 / <em>short paper on International Conference on Software Engineering (ICSE)</em>, 2024 &nbsp 
+                <br>
+                <a href="https://github.com/ZhongLIFR/Logs2Graph">code</a>
+                /
+                <a href="https://arxiv.org/abs/2307.00527">arXiv</a>
+                /
+                <a href="https://dl.acm.org/doi/10.1145/3639478.3643084">short paper</a>
+                <p>
+                  Graph neural network for log anomaly detection.
+                </p>
+              </td>
+              </tr>
+            </tbody>
+
+            <tbody>
+              <td style="padding:20px;width:35%;vertical-align:middle">
+                <img src='images/spectrallightfield.png' width="240">
+              </td>
+              <td style="padding:20px;width:65%;vertical-align:middle">
+                <a href="https://gitlab.com/MaxSchambach/reconstruction-from-spectrally-coded-light-fields">
+                  <span class="papertitle">Spectral reconstruction and disparity from spatio-spectrally coded light fields via
+                    multi-task deep learning</span>
+                </a>
+                <br>
+                <a href="https://maxschambach.github.io">Maximilian Schambach</a>,
+                <strong>Jiayang Shi</strong>,
+                <a href="https://www.iiit.kit.edu/english/3252.php">Michael Heizmann</a>
+                <br>
+                <em>International Conference on 3D Vision (3DV) </em>, 2021 &nbsp
+                <br>
+                <a href="https://gitlab.com/MaxSchambach/reconstruction-from-spectrally-coded-light-fields">code</a>
+                /
+                <a href="https://ieeexplore.ieee.org/abstract/document/9665944">proceeding</a>
+                /
+                <a href="https://arxiv.org/abs/2103.10179">arXiv</a>
+                <p></p>
+                <p>
+                  A novel method to reconstruct a spectral central view and its aligned disparity map from spatio-spectrally
+                  coded light fields using multi-task deep learning.
+                </p>
+              </td>
+              </tr>
+            </tbody>
       </tr>
     </tbody>
 
-    <tbody>
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <img src='images/recon_n5.pdf' width="240">
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
-        <a href="https://github.com/jiayangshi/LoDoInd">
-          <span class="papertitle">LoDoInd: Introducing A Benchmark Low-dose Industrial CT Dataset and Enhancing Denoising with 2.5D Deep Learning Techniques</span>
-        </a>
-        <br>
-        <strong>Jiayang Shi</strong>,
-        <a href="https://www.linkedin.com/in/omar-elkilany-046b0814b">Omar Elkilany</a>,
-        <a href="https://www.linkedin.com/in/andreas-fischer-6a960b94">Andreas Fischer</a>,
-        <a href="https://www.linkedin.com/in/alexander-suppes-554928a6">Alexander Suppes</a>,
-        <a href="https://dmpelt.github.io">Daan Pelt</a>,
-        <a href="https://www.universiteitleiden.nl/medewerkers/joost-batenburg">Joost Batenburg</a>
-        <br>
-        <em> International Conference on Industrial Computed Tomography (iCT) </em>, 2024 &nbsp
-        <br>
-        <a href="https://github.com/jiayangshi/LoDoInd">code</a>
-        /
-        <a href="https://zenodo.org/records/10356955">dataset</a>
-        /
-        <a href="https://www.ndt.net/article/ctc2024/papers/Contribution_187.pdf">proceeding</a>
-        /
-        <a href="https://github.com/jiayangshi/LoDoInd/blob/main/paper/LoDoInd_full.pdf">paper</a>
-        <p>
-          A Benchmark Low-dose Industrial CT Dataset Tailored for Deep Learning: This work introduces a dataset specifically designed for industrial CT applications, 
-          emphasizing deep learning approaches. It features a comprehensive analysis comparing the effectiveness and efficiency of 2D, 2.5D, and 3D training methodologies 
-          in the context of denoising and image enhancement.
-        </p>
-      </td>
-      </tr>
-    </tbody>
-
-    <tbody></tbody>
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <img src='images/crossdomaingraph.png' width="240">
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684507">
-          <span class="papertitle">Cross-Domain Graph Level Anomaly Detection</span>
-        </a>
-        <br>
-        <a href="https://www.zhongli.nl">Zhong Li</a>,
-        <a href="https://de.linkedin.com/in/sheng-liang-293355236">Sheng Liang</a>,
-        <strong>Jiayang Shi</strong>,
-        <a href="https://patternsthatmatter.org">Matthijs van Leeuwen</a>
-        <br>
-        <em>IEEE Transactions on Knowledge and Data Engineering (TKDE)</em>, 2024 &nbsp
-        <br>
-        <a href="https://github.com/ZhongLIFR/ARMET">code</a>
-        /
-        <a href="https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10684507">paper</a>
-        <p>
-          Unsupervised cross-domain graph level anomaly detection.
-        </p>
-      </td>
-      </tr>
-    </tbody>
-
-    <tbody>
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <img src='images/logs2graph.pdf' width="240">
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
-        <a href="https://arxiv.org/abs/2307.00527">
-          <span class="papertitle">Graph Neural Network based Log Anomaly Detection and Explanation</span>
-        </a>
-        <br>
-        <a href="https://www.zhongli.nl">Zhong Li</a>,
-        <strong>Jiayang Shi</strong>,
-        <a href="https://patternsthatmatter.org">Matthijs van Leeuwen</a>
-        <br>
-        <em>Full paper under review</em>, 2024 / <em>short paper on International Conference on Software Engineering (ICSE)</em>, 2024 &nbsp 
-        <br>
-        <a href="https://github.com/ZhongLIFR/Logs2Graph">code</a>
-        /
-        <a href="https://arxiv.org/abs/2307.00527">arXiv</a>
-        /
-        <a href="https://dl.acm.org/doi/10.1145/3639478.3643084">short paper</a>
-        <p>
-          Graph neural network for log anomaly detection.
-        </p>
-      </td>
-      </tr>
-    </tbody>
-
-    <tbody>
-      <td style="padding:20px;width:35%;vertical-align:middle">
-        <img src='images/spectrallightfield.png' width="240">
-      </td>
-      <td style="padding:20px;width:65%;vertical-align:middle">
-        <a href="https://gitlab.com/MaxSchambach/reconstruction-from-spectrally-coded-light-fields">
-          <span class="papertitle">Spectral reconstruction and disparity from spatio-spectrally coded light fields via
-            multi-task deep learning</span>
-        </a>
-        <br>
-        <a href="https://maxschambach.github.io">Maximilian Schambach</a>,
-        <strong>Jiayang Shi</strong>,
-        <a href="https://www.iiit.kit.edu/english/3252.php">Michael Heizmann</a>
-        <br>
-        <em>International Conference on 3D Vision (3DV) </em>, 2021 &nbsp
-        <br>
-        <a href="https://gitlab.com/MaxSchambach/reconstruction-from-spectrally-coded-light-fields">code</a>
-        /
-        <a href="https://ieeexplore.ieee.org/abstract/document/9665944">proceeding</a>
-        /
-        <a href="https://arxiv.org/abs/2103.10179">arXiv</a>
-        <p></p>
-        <p>
-          A novel method to reconstruct a spectral central view and its aligned disparity map from spatio-spectrally
-          coded light fields using multi-task deep learning.
-        </p>
-      </td>
-      </tr>
-    </tbody>
-
+    
   </table>
 
 
