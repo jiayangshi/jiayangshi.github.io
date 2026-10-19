@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 230" width="480" height="230" font-family="Lato, Verdana, Helvetica, sans-serif">
+  <rect width="480" height="230" fill="#ffffff"/>
+  <defs>
+    <marker id="arr" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#555"/>
+    </marker>
+  </defs>
+
+  <!-- training trajectory sketch: online loss curve -->
+  <g transform="translate(18,22)">
+    <rect width="132" height="112" rx="8" fill="#eef4fb" stroke="#1772d0" stroke-width="1.5"/>
+    <line x1="18" y1="92" x2="118" y2="92" stroke="#888" stroke-width="1"/>
+    <line x1="18" y1="92" x2="18" y2="16" stroke="#888" stroke-width="1"/>
+    <path d="M20,22 C40,62 55,76 75,82 S105,88 116,89" fill="none" stroke="#1772d0" stroke-width="2.2"/>
+    <path d="M20,22 C40,62 55,76 75,82 S105,88 116,89 L116,92 L20,92 z" fill="#1772d0" fill-opacity="0.15"/>
+    <text x="66" y="106" font-size="10" fill="#555" text-anchor="middle">training steps</text>
+  </g>
+  <text x="84" y="154" font-size="13" font-weight="700" fill="#222" text-anchor="middle">Training trajectory</text>
+  <text x="84" y="171" font-size="11" fill="#555" text-anchor="middle">prequential (online) code</text>
+
+  <!-- arrow 1 -->
+  <line x1="156" y1="78" x2="184" y2="78" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- description length -->
+  <g transform="translate(190,22)">
+    <rect width="120" height="112" rx="8" fill="#fdf3e7" stroke="#d07a17" stroke-width="1.5"/>
+    <text x="60" y="44" font-size="13" fill="#222" text-anchor="middle">Regret</text>
+    <text x="60" y="64" font-size="18" fill="#d07a17" text-anchor="middle">&#8805;</text>
+    <text x="60" y="86" font-size="13" fill="#222" text-anchor="middle">L(&#952;)</text>
+  </g>
+  <text x="250" y="154" font-size="13" font-weight="700" fill="#222" text-anchor="middle">Description length</text>
+  <text x="250" y="171" font-size="11" fill="#555" text-anchor="middle">of trained parameters</text>
+
+  <!-- arrow 2 -->
+  <line x1="316" y1="78" x2="344" y2="78" stroke="#555" stroke-width="1.8" marker-end="url(#arr)"/>
+
+  <!-- generalization bound -->
+  <g transform="translate(350,22)">
+    <rect width="112" height="112" rx="8" fill="#eaf6ec" stroke="#2e8b3e" stroke-width="1.5"/>
+    <text x="56" y="50" font-size="12" fill="#222" text-anchor="middle">test error &#8804;</text>
+    <text x="56" y="70" font-size="12" fill="#222" text-anchor="middle">train error +</text>
+    <text x="56" y="90" font-size="12" fill="#2e8b3e" text-anchor="middle">f(L(&#952;))</text>
+  </g>
+  <text x="406" y="154" font-size="13" font-weight="700" fill="#222" text-anchor="middle">Generalization</text>
+  <text x="406" y="171" font-size="11" fill="#555" text-anchor="middle">PAC-MDL bound</text>
+
+  <text x="240" y="210" font-size="12" font-style="italic" fill="#444" text-anchor="middle">Does compression imply generalization?</text>
+</svg>
